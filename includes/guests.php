@@ -81,4 +81,10 @@ $guests = [
         "job" => "Gerente de Sustentabilidade na Danone",
         "linkedin" => "https://www.linkedin.com/in/luizayang/",
     ]
+    ,
+    [
+        "name" => "Alexandra Gomes",
+        "job" => "Gerente de Transformação Digital na Unilever",
+        "linkedin" => "https://www.linkedin.com/in/xandagr/",
+    ]
 ];
