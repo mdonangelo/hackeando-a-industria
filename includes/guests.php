@@ -46,4 +46,39 @@ $guests = [
         "job" => "Scrum Master na 3M do Brasil",
         "linkedin" => "https://www.linkedin.com/in/roberta-kalil-sadi-313ba0a/",
     ],
+    [
+        "name" => "Daniel Cobianchi",
+        "job" => "Líder de Inovação e Estratégia na weme",
+        "linkedin" => "https://www.linkedin.com/in/danielcobianchi/",
+    ],
+    [
+        "name" => "Carolina Kia",
+        "job" => "CEO na weme",
+        "linkedin" => "https://www.linkedin.com/in/carolinakia/",
+    ],
+    [
+        "name" => "Carolina Nucci",
+        "job" => "CMO na weme",
+        "linkedin" => "https://www.linkedin.com/in/carolinanucci/",
+    ],
+    [
+        "name" => "Larissa Cruz",
+        "job" => "Head de Operações na weme",
+        "linkedin" => "https://www.linkedin.com/in/larissa-cruz/",
+    ],
+    [
+        "name" => "Gustavo Moreno",
+        "job" => "Business Design na weme",
+        "linkedin" => "https://www.linkedin.com/in/gustavomorenom/",
+    ],
+    [
+        "name" => "Rogério Albuquerque",
+        "job" => "Diretor de Vendas na Siemens",
+        "linkedin" => "https://www.linkedin.com/in/rogerioalbuquerque1970/",
+    ],
+    [
+        "name" => "Luiza Yang",
+        "job" => "Gerente de Sustentabilidade na Danone",
+        "linkedin" => "https://www.linkedin.com/in/luizayang/",
+    ]
 ];

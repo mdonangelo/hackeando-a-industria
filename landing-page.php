@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#0c8fe6">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?v=1.3">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.8">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25632384-22"></script>
@@ -39,7 +39,23 @@
     <!-- RD Station -->
     <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '612572842609532');
+    fbq('track', 'PageView');
+    </script>
 
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=612572842609532&ev=PageView&noscript=1"
+    /></noscript>
 
 </head>
 <body>
@@ -72,7 +88,10 @@
                 <div class="info-event">
                     <img src="./assets/images/banner-hackeando-a-industria.png" alt="">
                     <br>
-                    <div id="contTime"></div>
+                    
+                    <div id="contTime">
+                        
+                    </div>
                 </div>
 
                 <div class="subscription-form">
@@ -97,9 +116,9 @@
     <section>
         <div class="global" style="padding:50px 0;">
             <h3 style="color:#808080; font-weight: 300; font-size: 1em; color:#1d1d1d; text-align:center; font-size:1.2em;">
-                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 1:</i> 15 a 19 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>Warm up!</b> Todo dia um novo conteúdo para você e nossas entrevistas com c-levels da indústria <br><br>
+                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 1:</i> 15 a 19 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>Warm up!</b> Todo dia um novo conteúdo para você por e-mail e em nossas redes sociais<br> <a href="https://www.linkedin.com/company/weme/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a> | <a href="https://www.instagram.com/redeweme/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a> <br><br>
                 <b style="font-weight:600; font-style:italic; color:#ca34f1;">&&</b> <br><br>
-                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 2:</i> 22 a 26 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>6 lives com líderes da indústria.</b> Confira nossa agenda e palestrantes confirmados
+                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 2:</i> 23 a 26 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>6 lives com líderes da indústria.</b> Confira nossa agenda e palestrantes confirmados
             </h3>
         </div>
     </section>
@@ -262,7 +281,7 @@
                     <img src="assets/images/participantes/new-guest.png" alt="Foto de <?=$guest['name'];?>">
                     <h4>Em breve</h4>
                     <h5>Mais confirmadas/os</h5>
-                    <a style="color:#808080;"><i class="fab fa-linkedin"></i> Saiba mais</a>
+                    <a style="color:#808080;"><i class="fab fa-linkedin"></i></a>
                 </li>
 
             </ul>
@@ -281,8 +300,8 @@
 
             <div class="flex-row">
                 <div class="content-learn">
-                    <p class="by">por Viveka Kaitila</p>
-                    <p class="job-title">President & CEO GE Brasil</p>
+                    <p class="by">por Cristina Buzatto</p>
+                    <p class="job-title">Presidente na Technopark</p>
 
                     <a style="background-image: url('assets/images/em-breve.png');">
                         <i class="fas fa-play"></i>
@@ -291,7 +310,7 @@
 
                 <div class="content-learn">
                     <p class="by">por Christian Arntsen</p>
-                    <p class="job-title">Presidente Starrett Brasil</p>
+                    <p class="job-title">Presidente na Starrett Brasil</p>
 
                     <a style="background-image: url('assets/images/em-breve.png');">
                         <i class="fas fa-play"></i>
@@ -327,7 +346,7 @@
 
 <script src="https://kit.fontawesome.com/869a698328.js" crossorigin="anonymous"></script>
 <script src="./assets/js/menu.js"></script>
-<script src="./assets/js/timer.js"></script>
+<script src="./assets/js/timer.js?v=2.0"></script>
 <script src="./assets/js/know-more.js"></script>
 
 <!-- FANCYBOX -->

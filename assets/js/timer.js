@@ -1,6 +1,6 @@
 // TIMER
     // Contdown Time - Datas em milisegundos
-    var targetDate = new Date('2020-06-15T08:00:00-03:00');
+    var targetDate = new Date('2020-06-23T17:00:00-03:00');
 
     var countDownDate = targetDate.getTime();
     var now = Date.now();
@@ -17,6 +17,7 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     // Output the result in an element with id="demo"
     document.getElementById("contTime").innerHTML = 
+        "<div class='block-time title-timer'><span>Lançamento das lives em:</span></div>" +
         "<div class='block-time'>" + 
         days + "<span>dia(s)</span></div> <div class='block-time'>" + 
         hours + "<span>hora(s)</span> </div> <div class='block-time'>" + 
