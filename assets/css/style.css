@@ -430,7 +430,7 @@ header .flex-row{
     font-style: italic;
 }
 
-.content-learn a {
+.content-learn a, .published-video {
     color:#fff;
     display: block;
     width:90%;
@@ -441,17 +441,19 @@ header .flex-row{
     background-position: center;
     margin-top: 1em;
     border-radius: 4px;
+    text-align: center;
 
     -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,.2);
     -moz-box-shadow: 0px 0px 20px rgba(0,0,0,.2);
     box-shadow: 0px 0px 20px rgba(0,0,0,.2);
 }
 
-.content-learn a:hover{
+.content-learn a:hover, .published-video:hover{
     -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
     -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
     box-shadow: 0px 0px 10px rgba(0,0,0,.2);
 }
+
 
 .content-learn .fas {
     font-size: 2em;
@@ -459,6 +461,65 @@ header .flex-row{
     -moz-text-shadow: 0px 0px 20px rgba(0,0,0,1);
     text-shadow: 0px 0px 20px rgba(0,0,0,1);
 }
+
+/* NEW AGENDA STYLE */
+#macro-all-lives {
+    width:50%;
+}
+
+#all-lives-calendar{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    align-content: flex-start;
+}
+
+#all-lives-calendar .date {
+    font-size: 2em;
+    font-weight: 300;
+    color: #168cda;
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+#all-lives-calendar li {
+    padding:10px 20px;
+}
+
+#all-lives-calendar li img {
+    max-width:100%;
+    width:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#all-lives-calendar li h2 {
+    margin-top:0.5em;
+    font-size:1.1em;
+}
+
+#all-lives-calendar li h2 span {
+    font-size:0.8em;
+    font-weight:300;
+}
+
+#all-lives-calendar .title-event {
+    flex: 0 0 50%;
+}
+
+#all-lives-calendar .title-date {
+    flex:  100% 0 0 !important;
+}
+.more-info-agenda {
+    color: #ca34f1 !important;
+    font-weight: bold;
+    font-size:1.5em;
+    text-align:center;
+    margin:1em 0;
+    display:block;
+    text-decoration: underline;
+}
+
 
 /* FOOTER */
 footer {
@@ -560,6 +621,10 @@ footer p {
         width:40%;
         margin-left: 10%;
     }
+
+    #macro-all-lives {
+        width:100%;
+    }
 }
 
 @media(max-width:700px){
@@ -635,4 +700,15 @@ footer p {
         flex: 0 0 100% !important;
     }
 
+}
+
+@media(max-width:500px){
+    #all-lives-calendar .title-event {
+        flex: 0 0 100%;
+    }
+    #big-numbers .all-lives li .text, #big-numbers .all-lives li .video {
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
 }

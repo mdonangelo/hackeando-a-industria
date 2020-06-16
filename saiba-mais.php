@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmado! Agora vamos hacker a indústria!</title>
+    <title>Confira toda a agenda! Hackeando a Indústria</title>
 
     <link rel="icon" href="./assets/images/icon.ico" type="image/png" sizes="16x16">
 
@@ -77,6 +77,7 @@
                         <li><a href="./#macro-all-lives">Agenda</a></li>
                         <li><a href="#learn">Conteúdo exclusivo</a></li>
                         <li><a href="https://weme.com.br" target="_blank"><b>weme</b></a></li>
+                        <li><a href="./#inscreva-se" class="subscribe-btn">Inscreva-se</a></li>
                     </ul>
                 </nav>
             </div>
@@ -86,9 +87,8 @@
     <section id="agenda">
         <div class="global">       
             <div class="principal-info">
-                <h2 style="color:#8AC24A; font-size:2.5em;">Inscrição confirmada!</h2>
-                <h3>Parabéns! Você está mais próxima(o) de hacker a indústria :)</h3>
-                <h3><b>A partir de agora você será informado por e-mail sobre todas as nossas lives da semana "Hackeando a Indústria"!</b></h3>
+                <h2 style="color:#ca34f1; font-size:2.5em;">Como serão as lives!</h2>
+                <h3>Saiba mais sobre os temas e quais serão os participantes.</h3>
             </div>
         </div>
     </section>
@@ -96,12 +96,12 @@
 
     <section id="big-numbers">
         <div class="global">
-            <div class="principal-info">
-                <h2>Não perca nenhum conteúdo!</h2>
-                <h3>Veja o que já passou e o que está por vir!</h3>
-            </div>
+            
+            <?php include "./view/all-info-lives.php"; ?>
 
-            <?php include "./view/access-lives.php"; ?>
+            <div style="text-align:center; margin-top:2em;">
+                <a href="#inscreva-se" class="subscribe-btn">Não vou ficar de fora!</a>
+            </div>
         </div>
     </section>
 
