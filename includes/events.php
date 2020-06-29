@@ -10,11 +10,12 @@ $events = [
         ",
         "guests" => [
             "Daniel Cobianchi, weme",
-            "Lilio Rocha, DHL",
+            "Alexandra Gomes, Unilever",
             "Bruno Stefani, Ambev",
+            "Lilio Rocha, DHL",
         ],
         "dateTime" => "2020-06-23 17:00:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=qBaNVuk3njw&feature=youtu.be",
     ],
     [
         "title" => "Industry as a Service: como ampliar a entrega de valor na jornada do cliente?",
@@ -29,7 +30,7 @@ $events = [
             "Ricardo Gewehr, Gerdau",
         ],
         "dateTime" => "2020-06-23 18:30:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=qBaNVuk3njw&feature=youtu.be",
     ],
     [
         "title" => "Inovação na cadeia de valor: como usar a inovação para otimizar e reduzir custos na cadeia logística",
@@ -39,12 +40,12 @@ $events = [
             <p>Entenda como a inovação joga a favor da sua empresa nesse momento.</p>
         ",
         "guests" => [
-            "Carolina Kia, weme",
+            "Fábio Longo, weme",
             "Rodrigo Brea, Natura",
             "João Prada, DHL",
         ],
         "dateTime" => "2020-06-24 17:00:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=XDob7U2Ew78&feature=youtu.be",
     ],
     [
         "title" => "Inovação e sustentabilidade caminhando juntas: Uma nova lógica de produção.",
@@ -58,7 +59,7 @@ $events = [
             "Luiza Yang, Danone",
         ],
         "dateTime" => "2020-06-24 18:30:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=XDob7U2Ew78&feature=youtu.be",
     ],
     [
         "title" => "Melhoria Contínua x inovação: Como novos métodos complementam métodos tradicionais.",
@@ -68,11 +69,12 @@ $events = [
         ",
         "guests" => [
             "Gustavo Moreno, weme",
-            "Roberta Kalil, 3M",
             "Lucas Bragagnolo, Ambev",
+            "Rafael Bastos, Bosch",
+            "Roberta Kalil, 3M",
         ],
         "dateTime" => "2020-06-25 17:00:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=D4H7y_akjDk&feature=youtu.be",
     ],
     [
         "title" => "Employee Experience na Indústria: Como adaptar a jornada do colaborador da indústria no contexto digital?",
@@ -87,6 +89,23 @@ $events = [
             "Ligia Shimizu, Grupo Boticário",
         ],
         "dateTime" => "2020-06-25 18:30:00",
-        "live" => "",
+        "live" => "https://www.youtube.com/watch?v=D4H7y_akjDk&feature=youtu.be",
+    ],
+    [
+        "title" => "Live de fechamento - O que fica do Hackeando a Indútria?",
+        "pseudoTitle" => "Live de fechamento.",
+        "description" => "
+            <p>Para encerrar com chave de ouro, vamos nos reunir para compartilhar nossa experiência durante o evento. Vamos juntos nesse super bate-papo sobre nossos melhores momentos, aprendizados, insights e mais dicas para seguirmos inovando.<p>
+        ",
+        "guests" => [
+            "Gustavo Moreno, weme",
+            "Daniel Cobianchi, weme",
+            "Larissa Cruz, weme",
+            "Carolina Nucci, weme",
+            "Carolina Kia, weme",
+            "Fábio Longo, weme",
+        ],
+        "dateTime" => "2020-06-26 09:00:00",
+        "live" => "https://youtu.be/h_K-XJS2VzU",
     ],
 ];

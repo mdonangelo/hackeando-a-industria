@@ -32,15 +32,5 @@
             }
         ?>
 
-        <li style="display:flex; flex-direction:column; justify-content:space-between;">
-            <div style="flex-grow: 1;">
-                <div style="background-image: url('assets/images/participantes/new-guest.png'); width:90%; max-width:200px; height:150px; margin:10px auto; border-radius:5px; background-size:cover; background-repeat: no-repeat;"></div>
-                <h4>Em breve</h4>
-                <h5>Mais confirmadas/os</h5>
-            </div>
-            
-            <a style="color:#808080;"><i class="fab fa-linkedin"></i></a>
-        </li>
-
     </ul>
 </div>

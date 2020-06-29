@@ -27,6 +27,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css?v=2.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <style>.tns-outer [aria-controls]{ padding:5px; border-radius:100%; margin:10px; background-color:#f4f4f4; border:1px solid #e8e8e8; } .tns-nav-active { border-color: #808080 !important; } .tns-outer {text-align:center;} </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25632384-22"></script>
@@ -36,6 +39,16 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-25632384-22');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 696531957 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-696531957"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-696531957');
     </script>
 
     <!-- Facebook Pixel Code -->
@@ -55,6 +68,18 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=612572842609532&ev=PageView&noscript=1"
     /></noscript>
+
+    <!-- Hotjar Tracking Code for https://hackeandoaindustria.weme.com.br -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1862141,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
 
 </head>
@@ -87,8 +112,8 @@
     <section id="agenda">
         <div class="global">       
             <div class="principal-info">
-                <h2 style="color:#ca34f1; font-size:2.5em;">Como serão as lives!</h2>
-                <h3>Saiba mais sobre os temas e quais serão os participantes.</h3>
+                <h2 style="color:#ca34f1; font-size:2.5em;">Nossas lives!</h2>
+                <h3>Saiba mais sobre os temas e convidados de cada transmissão ao vivo que fizemos</h3>
             </div>
         </div>
     </section>
@@ -119,6 +144,10 @@
         <?php include "./view/cases.php"; ?>
     </section>
 
+    <section id="partners-event">
+        <?php include "./view/partners-event.php"; ?>
+    </section>
+
     <footer>
         <div class="global">
             <p>Copyright © <?=date('Y')?> Todos os direitos reservados | Essa página foi feita com ♡ pela weme.</p>
@@ -132,6 +161,38 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- Slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script>
+var slides = ['.learn-slider', '.cases-slider', '.partners-event-slider'];
+slides.forEach(function (item) {
+    var slider = tns({
+        container: item,
+        items: 1,
+        autoplay: true,
+        controls: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout:3000,
+        nav: true,
+        loop: true,
+        rewind: true,
+        responsive: {
+        640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 2
+        },
+        700: {
+            gutter: 30
+        },
+        900: {
+            items: 3
+        }
+        }
+    });
+});
+</script>
 
 </body>
 </html>

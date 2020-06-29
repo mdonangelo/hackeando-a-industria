@@ -27,6 +27,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css?v=2.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <style>.tns-outer [aria-controls]{ padding:5px; border-radius:100%; margin:10px; background-color:#f4f4f4; border:1px solid #e8e8e8; } .tns-nav-active { border-color: #808080 !important; } .tns-outer {text-align:center;} </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25632384-22"></script>
@@ -36,6 +39,16 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-25632384-22');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 696531957 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-696531957"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-696531957');
     </script>
 
     <!-- RD Station -->
@@ -58,6 +71,18 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=612572842609532&ev=PageView&noscript=1"
     /></noscript>
+
+    <!-- Hotjar Tracking Code for https://hackeandoaindustria.weme.com.br -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1862141,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
 </head>
 <body>
@@ -99,10 +124,9 @@
                 <div class="subscription-form">
                     <div id="about-us" class="text-info" style="margin-top:2em;">
 
-                        <h2>Duas semanas para Hackear a Indústria!</h2>
+                        <h2>Pronto para hackear a indústria?</h2>
                         <br>
-                        
-                        <p>Durante duas semanas, com conteúdos digitais, entenda a inovação com quem já inova na indústria.</p>
+                        <p>Preparamos conteúdos inscríveis para você entender inovação com que já inova na indústria.</p>
                         <p>Trazemos uma visão real e "pé no chão". Queremos te ajudar a visualizar e encontrar novos  ângulos para dar os primeiros passos e inovar em organizações tradicionais.
                         
                         <br>
@@ -118,9 +142,16 @@
     <section>
         <div class="global" style="padding:50px 0;">
             <h3 style="color:#808080; font-weight: 300; font-size: 1em; color:#1d1d1d; text-align:center; font-size:1.2em;">
-                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 1:</i> 15 a 19 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>Warm up!</b> Todo dia um novo conteúdo para você por e-mail e em nossas redes sociais<br> <a href="https://www.linkedin.com/company/weme/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a> | <a href="https://www.instagram.com/redeweme/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a> <br><br>
-                <b style="font-weight:600; font-style:italic; color:#ca34f1;">&&</b> <br><br>
-                <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 2:</i> 23 a 26 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>6 lives com líderes da indústria.</b> Confira nossa agenda e palestrantes confirmados
+                
+                    <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 1:</i> 15 a 19 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> 
+                
+                    <b>Warm up!</b> Todo dia um novo conteúdo para você por e-mail e em nossas redes sociais<br><br> 
+                    <a href="https://www.linkedin.com/company/weme/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a> | <a href="https://www.instagram.com/redeweme/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>
+                    <br><br>
+                    <b style="font-weight:600; font-style:italic; color:#ca34f1;">&&</b> <br><br>
+                    <span style="color:#168cda; font-weight:600;"><</span> <i style="font-weight:600;">Semana 2:</i> 23 a 26 de Junho <span style="color:#168cda; font-weight:600;">/></span><br><br> <b>Nossas lives.</b> Conversamos ao vivo com quem já inova na indústria.<br>
+                    Está tudo aqui no site! <a href="#macro-all-lives">Inscreva-se!</a>
+                
             </h3>
         </div>
     </section>
@@ -171,8 +202,8 @@
     <section id="agenda">
         <div class="global">
             <div class="principal-info">
-                <h2>Como será a jornada?</h2>
-                <h3>Cadastre-se para acompanhar todas as lives!</h3>
+                <h2>Nossa jornada</h2>
+                <h3>Cadastre para ter total acesso às lives.</h3>
             </div>
             <div class="flex-row">
                 <div id="inscreva-se" class="subscription-form">
@@ -185,12 +216,12 @@
         </div>
     </section>
 
-    <section id="speakers">
-        <?php include "./view/speakers.php"; ?>
-    </section>
-    
     <section id="learn">
         <?php include "./view/learn.php"; ?>
+    </section>
+
+    <section id="speakers">
+        <?php include "./view/speakers.php"; ?>
     </section>
 
     <div class="global-button">
@@ -202,6 +233,9 @@
         <?php include "./view/cases.php"; ?>
     </section>
         
+    <section id="partners-event">
+        <?php include "./view/partners-event.php"; ?>
+    </section>
 
     <footer>
         <div class="global">
@@ -217,6 +251,38 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+<!-- Slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script>
+var slides = ['.learn-slider', '.cases-slider', '.partners-event-slider'];
+slides.forEach(function (item) {
+    var slider = tns({
+        container: item,
+        items: 1,
+        autoplay: true,
+        controls: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout:3000,
+        nav: true,
+        loop: true,
+        rewind: true,
+        responsive: {
+        640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 2
+        },
+        700: {
+            gutter: 30
+        },
+        900: {
+            items: 3
+        }
+        }
+    });
+});
+</script>
 
 </body>
 </html>

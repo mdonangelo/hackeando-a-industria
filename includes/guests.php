@@ -42,7 +42,7 @@ $guests = [
         "linkedin" => "https://www.linkedin.com/in/ricardo-guimaraes-gewehr/",
     ],
     [
-        "name" => "Roberta Kalil Sado",
+        "name" => "Roberta Kalil Sadi",
         "job" => "Scrum Master na 3M do Brasil",
         "linkedin" => "https://www.linkedin.com/in/roberta-kalil-sadi-313ba0a/",
     ],
@@ -80,11 +80,35 @@ $guests = [
         "name" => "Luiza Yang",
         "job" => "Gerente de Sustentabilidade na Danone",
         "linkedin" => "https://www.linkedin.com/in/luizayang/",
-    ]
-    ,
+    ],
     [
         "name" => "Alexandra Gomes",
         "job" => "Gerente de Transformação Digital na Unilever",
         "linkedin" => "https://www.linkedin.com/in/xandagr/",
+    ],
+    [
+        "name" => "Lígia Shimizu",
+        "job" => "Consultora de Planejamento & Performance de RH no Grupo Boticário",
+        "linkedin" => "https://www.linkedin.com/in/lshimizu/",
+    ],
+    [
+        "name" => "Alex Sobral",
+        "job" => "Managing Director na Beiersdorf",
+        "linkedin" => "https://www.linkedin.com/in/asobral/",
+    ],
+    [
+        "name" => "Paulo Rocca Vieira",
+        "job" => "Vice President / General manager na Bosch",
+        "linkedin" => "https://www.linkedin.com/in/paulo-rocca-s-vieira-6347371b/",
+    ],
+    [
+        "name" => "Rafael Bastos",
+        "job" => "Consultor em Excelência de Negócios na Bosch",
+        "linkedin" => "https://www.linkedin.com/in/rafabastos-b3778/",
+    ],
+    [
+        "name" => "Fábio Longo",
+        "job" => "Líder de Operações na weme",
+        "linkedin" => "https://www.linkedin.com/in/fabiolongo/",
     ]
 ];

@@ -26,7 +26,7 @@
     // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("contTime").innerHTML = "<span>Lançado!</span>";
+        document.getElementById("contTime").innerHTML = "";
     }
 
     }, 1000);

@@ -16,4 +16,9 @@ $cases = [
         "description" => "Como podemos elaborar uma estratégia de inovação consistente e garantir a relevância da Starrett no futuro?",
         "link" => "https://www.youtube.com/watch?v=yUKXbhhhe1Q&feature=youtu.be",
     ],
+    [
+        "title" => "Bosch YouLab",
+        "description" => "Como nós podemos construir a área de recursos humanos do futuro?",
+        "link" => "https://www.youtube.com/watch?v=kYAJBPXbmZg&feature=youtu.be",
+    ],
 ];

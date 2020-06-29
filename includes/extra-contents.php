@@ -9,11 +9,21 @@ $contents = [
     [
         "author" => "Cristina Buzatto",
         "job" => "Presidente na Technopark",
-        "link" => "",
+        "link" => "https://www.youtube.com/watch?v=QGYsFicIvGk",
+    ],
+    [
+        "author" => "Marcelo Oromendia",
+        "job" => "Presidente da 3M Brasil",
+        "link" => "https://youtu.be/FUwslcoaYlY",
     ],
     [
         "author" => "Gustavo França",
         "job" => "CDO/CIO na Gerdau",
-        "link" => "",
+        "link" => "https://youtu.be/ofJePaoRTD8",
+    ],
+    [
+        "author" => "Paulo Rocca Vieira",
+        "job" => "Vice President / General manager na Bosch",
+        "link" => "https://www.youtube.com/watch?v=HZdCD3DmDVw",
     ],
 ];
